@@ -7,7 +7,7 @@ import dateFormats.CreateLists;
 import java.io.*;
 import java.util.ArrayList;
 
-public class EmoryWriteToCSV {
+public class KennesawWriteToCSV {
 
     public static void writeCSV() {
 

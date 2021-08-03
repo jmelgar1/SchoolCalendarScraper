@@ -6,13 +6,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class EmoryLogin {
+public class KennesawLogin {
 
     String programStatus;
 
-    EmoryGUICore kgc1 = new EmoryGUICore();
+    KennesawGUICore kgc1 = new KennesawGUICore();
 
-    public EmoryLogin(WebDriver driver){
+    public KennesawLogin(WebDriver driver){
         driver.get("https://ksufed.kennesaw.edu/adfs/ls/?SAMLRequest=jdE9T8MwEAbgHYn%2fEHmP7dhpPqykUgVLpbK0wMCCnOTaRiR2" +
                    "8DktPx%2bXqoKR7T70So%2fuqtXsj2YLnzOgj9aPNUE9Du7av8uFyLSGDNKGp1nGm0RDm%2b8hLcpEJmVHoldw2FtTE0E5idaIM" +
                    "6wNem18GHGRxLyIuXxOEiWE4hmVQhQyk28kWiGC8yH7YA3OI7gduFPfwst2U5Oj9xMqxj7AGEB9pqceznTGA4VuZp0Y2DAxHehs" +

@@ -13,11 +13,11 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 
-public class EmoryScrapeCalendar {
+public class KennesawScrapeCalendar {
 
-    EmoryGUICore kgc1 = new EmoryGUICore();
+    KennesawGUICore kgc1 = new KennesawGUICore();
 
-    public EmoryScrapeCalendar(WebDriver driver) throws InterruptedException, IOException {
+    public KennesawScrapeCalendar(WebDriver driver) throws InterruptedException, IOException {
         driver.manage().window().maximize();
 
         //Give user time to authenticate with DUO

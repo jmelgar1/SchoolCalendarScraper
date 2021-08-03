@@ -10,7 +10,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.IOException;
 
-public class EmoryGUICore extends JPanel implements ActionListener{
+public class KennesawGUICore extends JPanel implements ActionListener{
 
     private static JLabel userLabel;
     private static JTextField userText;
@@ -23,7 +23,7 @@ public class EmoryGUICore extends JPanel implements ActionListener{
     private static JPanel panel;
     private static JFrame frame;
 
-    EmoryWriteToCSV wtc1 = new EmoryWriteToCSV();
+    KennesawWriteToCSV wtc1 = new KennesawWriteToCSV();
 
     public static void KennesawStateGUIcore() {
 
@@ -54,7 +54,7 @@ public class EmoryGUICore extends JPanel implements ActionListener{
 
         button = new JButton("Submit");
         button.setBounds(10, 80, 80, 25);
-        button.addActionListener(new EmoryGUICore());
+        button.addActionListener(new KennesawGUICore());
         panel.add(button);
 
         process = new JLabel("");
@@ -94,10 +94,10 @@ public class EmoryGUICore extends JPanel implements ActionListener{
         process.setText("Waiting for DUO verification...");
         process.paintImmediately(process.getVisibleRect());
 
-        new EmoryLogin(driver);
+        new KennesawLogin(driver);
 
         try {
-            new EmoryScrapeCalendar(driver);
+            new KennesawScrapeCalendar(driver);
             process.setText("Getting calendar events...");
             process.paintImmediately(process.getVisibleRect());
         } catch (InterruptedException interruptedException) {
