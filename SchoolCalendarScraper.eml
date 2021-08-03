@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inheritJdk="true">
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="client-combined-3.141.59.jar" scope="COMPILE">
+		<srcroot url="jar://$USER_HOME$/Downloads/SELENIUM JARS/client-combined-3.141.59-sources.jar!/"/>
+	</lib>
+	<levels>
+		<level name="lib" value="project"/>
+	</levels>
+</component>
