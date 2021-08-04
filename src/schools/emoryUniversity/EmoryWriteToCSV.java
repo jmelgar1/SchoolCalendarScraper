@@ -1,4 +1,4 @@
-package emoryUniversity;
+package schools.emoryUniversity;
 
 import Main.DirectoryChooser;
 import dateFormats.CreateFormat;

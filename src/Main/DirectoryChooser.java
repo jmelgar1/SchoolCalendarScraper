@@ -16,7 +16,6 @@ public class DirectoryChooser {
         createUI(frame, path);
         frame.setSize(560, 200);
         frame.setLocationRelativeTo(null);
-        frame.setVisible(false);
     }
 
     private static <path> void createUI(final JFrame frame, path String){

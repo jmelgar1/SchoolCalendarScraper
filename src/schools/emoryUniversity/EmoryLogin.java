@@ -1,17 +1,15 @@
-package emoryUniversity;
+package schools.emoryUniversity;
 
-import KennesawState.EmoryGUICore;
+import schools.KennesawState.KennesawGUICore;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class EmoryLogin {
 
     String programStatus;
 
-    EmoryGUICore egc1 = new EmoryGUICore();
+    KennesawGUICore egc1 = new KennesawGUICore();
 
     public EmoryLogin(WebDriver driver){
         driver.get("https://login.emory.edu/idp/profile/SAML2/Redirect/SSO?execution=e1s1");

@@ -1,4 +1,4 @@
-package KennesawState;
+package schools.KennesawState;
 
 import Main.DirectoryChooser;
 import dateFormats.CreateFormat;

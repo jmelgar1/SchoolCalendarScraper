@@ -1,4 +1,4 @@
-package KennesawState;
+package schools.KennesawState;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

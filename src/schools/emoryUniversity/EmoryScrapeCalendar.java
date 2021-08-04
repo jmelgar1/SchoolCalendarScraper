@@ -1,22 +1,18 @@
-package emoryUniversity;
+package schools.emoryUniversity;
 
-import KennesawState.EmoryGUICore;
+import schools.KennesawState.KennesawGUICore;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.FluentWait;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.time.Duration;
 import java.util.List;
 
 public class EmoryScrapeCalendar {
 
-    EmoryGUICore egc1 = new EmoryGUICore();
+    KennesawGUICore egc1 = new KennesawGUICore();
 
     public EmoryScrapeCalendar(WebDriver driver) throws InterruptedException, IOException {
         driver.manage().window().maximize();

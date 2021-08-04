@@ -1,8 +1,8 @@
-package emoryUniversity;
+package schools.emoryUniversity;
 
-import KennesawState.EmoryLogin;
-import KennesawState.EmoryScrapeCalendar;
-import KennesawState.EmoryWriteToCSV;
+import schools.KennesawState.KennesawLogin;
+import schools.KennesawState.KennesawScrapeCalendar;
+import schools.KennesawState.KennesawWriteToCSV;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -26,7 +26,7 @@ public class EmoryGUICore extends JPanel implements ActionListener{
     private static JPanel panel;
     private static JFrame frame;
 
-    EmoryWriteToCSV etc1 = new EmoryWriteToCSV();
+    KennesawWriteToCSV etc1 = new KennesawWriteToCSV();
 
     public static void EmoryGUIcore() {
 
@@ -94,10 +94,10 @@ public class EmoryGUICore extends JPanel implements ActionListener{
 
         WebDriver driver = new ChromeDriver(options);
 
-        new EmoryLogin(driver);
+        new KennesawLogin(driver);
 
         try {
-            new EmoryScrapeCalendar(driver);
+            new KennesawScrapeCalendar(driver);
             process.setText("Getting calendar events...");
             process.paintImmediately(process.getVisibleRect());
         } catch (InterruptedException interruptedException) {

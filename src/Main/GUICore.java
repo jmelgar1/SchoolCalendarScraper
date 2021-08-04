@@ -1,6 +1,6 @@
 package Main;
 
-import KennesawState.EmoryGUICore;
+import schools.KennesawState.KennesawGUICore;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -45,7 +45,7 @@ public class GUICore extends JFrame {
                 if(dc1.getPath() == null){
                     JOptionPane.showMessageDialog(frame, "Please select a directory!");
                 } else {
-                    EmoryGUICore kgc1 = new EmoryGUICore();
+                    KennesawGUICore kgc1 = new KennesawGUICore();
                     kgc1.KennesawStateGUIcore();
                 }
             }
