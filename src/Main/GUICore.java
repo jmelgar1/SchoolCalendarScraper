@@ -27,7 +27,7 @@ public class GUICore extends JFrame {
 
     DirectoryChooser dc1 = new DirectoryChooser();
 
-    String version = "1.0.0-a.1";
+    String version = "1.0.1-a.1";
 
     public GUICore() {
 
