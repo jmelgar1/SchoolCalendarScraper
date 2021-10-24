@@ -65,7 +65,6 @@ public class GUICore extends JFrame {
                 {"Kennesaw State", "Online"},
                 {"Emory University", "Offline"},
                 {"Georgia State", "Offline"},
-                {"University of Georgia", "Coming soon"},
                 {"Georgia Tech", "Coming soon"},
                 {"Georgia Southern", "Coming soon"},
                 {"Georgia College", "Coming soon"},

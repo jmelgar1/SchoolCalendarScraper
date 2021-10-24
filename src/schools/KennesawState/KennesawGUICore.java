@@ -108,7 +108,7 @@ public class KennesawGUICore extends JPanel implements ActionListener{
 
         wtc1.writeCSV();
 
-        process.setText("Finished! Please select a location for the file!");
+        process.setText("Finished! Your file is in the selected directory!");
     }
 
     public void setUsername(String user){

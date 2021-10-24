@@ -13,11 +13,18 @@ public class KennesawLogin {
     KennesawGUICore kgc1 = new KennesawGUICore();
 
     public KennesawLogin(WebDriver driver){
-        driver.get("https://ksufed.kennesaw.edu/adfs/ls/?SAMLRequest=jdE9T8MwEAbgHYn%2fEHmP7dhpPqykUgVLpbK0wMCCnOTaRiR2" +
-                   "8DktPx%2bXqoKR7T70So%2fuqtXsj2YLnzOgj9aPNUE9Du7av8uFyLSGDNKGp1nGm0RDm%2b8hLcpEJmVHoldw2FtTE0E5idaIM" +
-                   "6wNem18GHGRxLyIuXxOEiWE4hmVQhQyk28kWiGC8yH7YA3OI7gduFPfwst2U5Oj9xMqxj7AGEB9pqceznTGA4VuZp0Y2DAxHehs" +
-                   "sIfesAt6c6lo2JHoaxwM1mR2RlmNPSqjR0DlW7VbPW1UsKrJWW9bO5Dl%2fV0UVT9y95%2bgvrnJ8qYsFvlell0ea5nnccr1Ii5" +
-                   "FLuJF02QSdDjhHqgHE66CtHH94ehx0i3Q1o6%2f9IpdEQFUsb9vWX4D");
+        driver.get("https://kennesaw.view.usg.edu/");
+
+        /*driver.get("https://ksufed.kennesaw.edu/adfs/ls/?SAMLRequest=jdE9" +
+                   "b4MwEAbgvVL%2fA%2fKODQYMWBApapdI6ZK0HbpUxhwJKtjUZ5L%2" +
+                   "b%2fJJGUTt2uw%2b90qO7aj37o9nB5wzog81jTVCNg7v270J3uRIi" +
+                   "0W2UpgXvlEjytOkKXfCkEUqT4BUc9tbUhNOIBBvEGTYGvTJ%2bGUU" +
+                   "8DqMijMVzzGWWySSlcckzkZZvJFgjgvNL9sEanEdwe3CnXsPLbluT" +
+                   "o%2fcTSsY%2bwBhAdaanHs50xgOFdmYtH9gwMbXQ2WAPvWEX9PZS0" +
+                   "WVHgq9xMFiT2RlpFfYojRoBpddyv37aysUqJ2e91XYgq%2fu7IKh%" +
+                   "2b5O4%2fQXVzk9VNWWR5l5RtHqokz8M0UllY8pyHWdOIBJRQqgPqw" +
+                   "SxXQdq4%2fnD0OCkNVNvxl16xK2IBVezvW1bf");
+         */
 
         //getting the username
         WebElement username = driver.findElement(By.id("userNameInput"));

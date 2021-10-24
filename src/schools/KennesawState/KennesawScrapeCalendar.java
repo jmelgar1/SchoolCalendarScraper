@@ -24,7 +24,7 @@ public class KennesawScrapeCalendar {
         FluentWait<WebDriver> webDriverWait = new WebDriverWait(driver, 30).pollingEvery(Duration.ofSeconds(2));
         webDriverWait.until(ExpectedConditions.urlContains("https://kennesaw.view.usg.edu/d2l/home"));
 
-        driver.get("https://kennesaw.view.usg.edu/d2l/le/calendar/6629");
+        driver.get("https://kennesaw.view.usg.edu/d2l/le/calendar/6629/home/list?year=2021&month=8&day=16");
 
         //creates list for calendar events
         List<WebElement> allElements = driver.findElements(By.xpath("//*[@id='eventIds']/ul"));
